@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Snippets</h1>
+        <p>Reusable Code patterns</p>
+    </header>
+    <main>
+        <section class="card">
+            <article>
+                <h2>user-select</h2>
+                <p>Will highlight contained content in a single click.</p>
+<pre>
+.select &#123
+  user-select: all;
+&#125</pre>
+            </article>
+        </section>
+
+        <section class="card">
+            <article>
+                <h2>Overlay Card with Title</h2>
+                <p>Places the title on top of the card's outline.</p>
+<pre>.card-header &#123
+  position: relative;
+  margin-top: -15px
+&#125</pre>
+            </article>
+        </section>
+
+        <section class="card">
+            <article>
+                <h2>Liniear Gradiant Right</h2>
+                <p>Creates background gradiant from left to right</p>
+<pre>.liniar-gradiant-right &#123
+    background-image: 
+    linear-gradient(to right, rgba(244, 104, 104, .3) 0%,
+    rgb(244, 104, 104, .6) 50%);
+&#125</pre>
+            </article>
+        </section>
+
+        <section class="card">
+            <article>
+                <h2>CSS Grid Layout</h2>
+                <p>Decalares 12-column grid layout</p>
+<pre>.grid &#123
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr);
+&#125</pre>
+            </article>
+        </section>
+
+        <section class="card">
+            <article>
+                <h2>Flelxbox Colum</h2>
+                <p>Declares Flexbox with vertical primary axis</p>
+<pre>.flex-column &#123
+  display: flex;
+  flex-direction: column;
+&#125</pre>
+            </article>
+        </section>
+
+        <section class="card">
+            <article>
+                <h2>Flex Row</h2>
+                <p>Declares flex box with horizontal primary axis</p>
+<pre>.flex-row &#123
+  display: flex;
+  flex-direction: row;
+&#125</pre>
+            </article>
+        </section>
+    </main>
+
+    <footer><P>Thanks for visiting! &#129505</P></footer>
+</body>
+</html>
